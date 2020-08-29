@@ -1,0 +1,14 @@
+[02-Sep-2019 16:26:44 UTC] PHP Fatal error:  Uncaught Error: Class 'Barryvdh\DomPDF\ServiceProvider' not found in /home/syntxid/telsfest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php:670
+Stack trace:
+#0 /home/syntxid/telsfest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(604): Illuminate\Foundation\Application->resolveProvider('Barryvdh\\DomPDF...')
+#1 /home/syntxid/telsfest/bootstrap/app.php(43): Illuminate\Foundation\Application->register('Barryvdh\\DomPDF...')
+#2 /home/syntxid/telsfest.syntx.id/index.php(38): require_once('/home/syntxid/t...')
+#3 {main}
+  thrown in /home/syntxid/telsfest/vendor/laravel/framework/src/Illuminate/Foundation/Application.php on line 670
+[02-Sep-2019 23:38:18 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 34799361 bytes) in /home/syntxid/telsfest/vendor/dompdf/dompdf/lib/Cpdf.php on line 5015
+[02-Sep-2019 23:39:58 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 34799361 bytes) in /home/syntxid/telsfest/vendor/dompdf/dompdf/lib/Cpdf.php on line 5015
+[02-Sep-2019 23:40:10 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 34799361 bytes) in /home/syntxid/telsfest/vendor/dompdf/dompdf/lib/Cpdf.php on line 5015
+[03-Sep-2019 08:11:28 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 34799361 bytes) in /home/syntxid/telsfest/vendor/dompdf/dompdf/lib/Cpdf.php on line 5015
+[03-Sep-2019 08:14:48 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 34799361 bytes) in /home/syntxid/telsfest/vendor/dompdf/dompdf/lib/Cpdf.php on line 5015
+[03-Sep-2019 08:16:00 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 34799361 bytes) in /home/syntxid/telsfest/vendor/dompdf/dompdf/lib/Cpdf.php on line 5015
+[03-Sep-2019 08:18:58 Asia/Jakarta] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 34799361 bytes) in /home/syntxid/telsfest/vendor/dompdf/dompdf/lib/Cpdf.php on line 5015
